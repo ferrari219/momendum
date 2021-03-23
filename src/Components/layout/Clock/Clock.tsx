@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Clock = () => {
+const Clock = ({ now }) => {
     return (
         <div>
-            Clock
+            <h1>{now}</h1>
         </div>
     );
 };

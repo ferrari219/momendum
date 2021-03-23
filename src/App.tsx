@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Clock/>
+        <Clock now="123"/>
       </div>
     );
   }
